@@ -3,7 +3,7 @@ const data = {
         {
             name: 'Free Shirt',
             category: 'Shirts',
-            image: '/images/shirts1.jpg',
+            image: '/images/pants3.jpg',
             price: 70,
             brand: 'Nike',
             rating: 4.5,
@@ -13,7 +13,7 @@ const data = {
         }, {
             name: 'Fit Shirt',
             category: 'Shirts',
-            image: '/images/shirts2.jpg',
+            image: '/images/pants2.jpg',
             price: 40,
             brand: 'Adidas',
             rating: 4.2,
@@ -23,7 +23,7 @@ const data = {
         }, {
             name: 'Best Basic Shirt',
             category: 'Shirts',
-            image: '/images/shirts3.jpg',
+            image: '/images/pants1.jpg',
             price: 10,
             brand: 'Basic',
             rating: 2.5,
@@ -63,3 +63,5 @@ const data = {
         },
     ],
 };
+
+export default data;

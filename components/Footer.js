@@ -12,7 +12,7 @@ const style = {
 const Footer = () => {
     return (
         <div>
-            <Typography className='styles.main' sx={{...style}}>All rights reserved @JpunktWpunkt</Typography>
+            <Typography sx={{...style}}>All rights reserved @JpunktWpunkt</Typography>
         </div>
     );
 }
