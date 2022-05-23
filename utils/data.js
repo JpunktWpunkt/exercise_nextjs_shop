@@ -2,6 +2,7 @@ const data = {
     products: [
         {
             name: 'Free Shirt',
+            slug: 'free-shirt',
             category: 'Shirts',
             image: '/images/pants3.jpg',
             price: 70,
@@ -12,6 +13,7 @@ const data = {
             description: 'A popular shirt',
         }, {
             name: 'Fit Shirt',
+            slug: 'fit-shirt',
             category: 'Shirts',
             image: '/images/pants2.jpg',
             price: 40,
@@ -22,6 +24,7 @@ const data = {
             description: 'Another popular shirt',
         }, {
             name: 'Best Basic Shirt',
+            slug: 'best-shirt',
             category: 'Shirts',
             image: '/images/pants1.jpg',
             price: 10,
@@ -32,6 +35,7 @@ const data = {
             description: 'A basic shirt',
         }, {
             name: 'Free Pant',
+            slug: 'free-pant',
             category: 'Pants',
             image: '/images/pants1.jpg',
             price: 70,
@@ -41,7 +45,8 @@ const data = {
             countInStock: 20,
             description: 'A popular pant',
         }, {
-            name: 'Free Pant',
+            name: 'Fit Pant',
+            slug: 'fit-pant',
             category: 'Pants',
             image: '/images/pants2.jpg',
             price: 89,
@@ -52,6 +57,7 @@ const data = {
             description: 'Another pant',
         }, {
             name: 'Basis Pant',
+            slug: 'basic-shirt',
             category: 'Pants',
             image: '/images/pants3.jpg',
             price: 10,
