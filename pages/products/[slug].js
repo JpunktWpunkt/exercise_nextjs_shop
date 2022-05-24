@@ -16,7 +16,7 @@ const styleBox = {
 const ProductScreen = () => {
     const router = useRouter();
     const {slug} = router.query;
-    const product = data.products.find(a => a.slug === slug)
+    const product = data.products.find(a => a.slug === slug)/*//only for demo*/
     if (!product) {
         return <div>Product Not Found</div>;
     }
@@ -38,7 +38,7 @@ const ProductScreen = () => {
                 <Grid item md={3} xs={12}>
                     <List>
                         <ListItem>
-                            <Typography component="h1">{product.name}</Typography>
+                            <Typography component="h1" variant="h1">{product.name}</Typography>
                         </ListItem> {/*Important for SEO*/}
                         <ListItem><Typography>Category: {product.category}</Typography></ListItem>
                         <ListItem><Typography>Brand: {product.brand}</Typography></ListItem>
